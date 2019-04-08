@@ -45,6 +45,10 @@
     "shelljs": "^0.8.3",
     "sinon": "^7.3.1",
     "tslint": "^5.15.0",
+<<<<<<< HEAD
     "typescript": "^3.4.2"
+=======
+    "typescript": "^3.4.1"
+>>>>>>> 074f1fb125f27881ce3c5a1c162f7f5334d7f2b5
   }
 }
