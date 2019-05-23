@@ -1,0 +1,18 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": true,
+  "extension": [
+    ".ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "_scripts/**",
+    "src/**/*.spec.ts"
+  ],
+  "require": [
+    "ts-node/register/transpile-only",
+    "source-map-support/register"
+  ]
+}
