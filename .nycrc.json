@@ -1,5 +1,7 @@
 {
   "all": true,
+  "check-coverage": false,
+  "extends": "@istanbuljs/nyc-config-typescript",
   "extension": [
     ".ts"
   ],
