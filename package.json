@@ -1,7 +1,7 @@
 {
   "name": "archdevts",
-  "version": "0.0.1-alpha.1",
-  "description": "Architecode TypeScript-Based Development",
+  "version": "0.0.1-alpha.2",
+  "description": "Architecode TypeScript Development",
   "private": false,
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
