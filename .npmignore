@@ -3,8 +3,10 @@
 /_scripts
 /_tsconfigs
 /.nyc_output
+/lib
 /src
 /test
+/typings
 
 # Files
 *.yml
