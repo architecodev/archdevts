@@ -1,12 +1,12 @@
 {
   "name": "archdevts",
-  "version": "20.5.30",
+  "version": "20.5.31",
   "description": "Architecode TypeScript Development",
   "private": false,
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
   "scripts": {
-    "dev": "npm run cleanup && nodemon -e ts --watch src --exec 'npm run build'",
+    "dev": "npm run cleanup && nodemon -e ts --watch src --exec 'npm run build-ts && node ./lib/index.js'",
     "build": "npm run cleanup && npm run build-ts",
     "build-es5": "npm run cleanup && npm run build-ts-es5",
     "build-es6": "npm run cleanup && npm run build-ts-es6",
