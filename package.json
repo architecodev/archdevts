@@ -1,6 +1,6 @@
 {
   "name": "archdevts",
-  "version": "21.4.1",
+  "version": "21.8.1",
   "description": "Architecode TypeScript Development",
   "private": false,
   "main": "./lib/index.js",
